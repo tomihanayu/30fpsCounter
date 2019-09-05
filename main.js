@@ -20,7 +20,7 @@
 
         //HTMLのid　timer部分に表示させる　
         timer_time.textContent = m + ":" + s + ":" + ms;
-        timer_FPS.textContent = Math.floor(elapsedTime / 33.33333333333333)+ " FPS";
+        timer_FPS.textContent = Math.floor(elapsedTime / 33.33333333333333)+ " Frame";
     }
 
 
